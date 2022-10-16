@@ -8,14 +8,16 @@ import dagger.internal.DaggerGenerated
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var computer: Computer
-    lateinit var keyboard: Keyboard
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Component().inject(this)
+        val activity = Activity()
+        activity.keyboard.toString()
+
+        activity.monitor.toString()
+        activity.mouse.toString()
+
+
     }
 }

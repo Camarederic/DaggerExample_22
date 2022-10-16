@@ -18,9 +18,10 @@ class Component {
 
     // 2-ой способ через функцию inject()
     // Лучше использовать этот способ
-    fun inject(mainActivity: MainActivity){
-        mainActivity.computer = getComputer()
-        mainActivity.keyboard = Keyboard()
+    fun inject(activity: Activity){
+        activity.keyboard = Keyboard()
+        activity.mouse = Mouse()
+        activity.monitor = Monitor()
 
     }
 

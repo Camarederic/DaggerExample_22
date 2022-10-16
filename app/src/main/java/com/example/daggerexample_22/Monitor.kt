@@ -1,4 +1,6 @@
 package com.example.daggerexample_22
 
-class Monitor {
+import javax.inject.Inject
+
+class Monitor @Inject constructor() {
 }

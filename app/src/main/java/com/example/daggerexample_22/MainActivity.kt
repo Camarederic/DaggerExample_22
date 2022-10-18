@@ -2,8 +2,6 @@ package com.example.daggerexample_22
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import dagger.internal.DaggerGenerated
 
 
 class MainActivity : AppCompatActivity() {
@@ -17,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 //        activity.monitor.toString()
 //        activity.mouse.toString()
+
 
 
     }
